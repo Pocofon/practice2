@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'League Spartan', sans-serif;
+}
+
+.container{
+    margin: 0px 130px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 168px;
+}
+
+.header-mark{
+    padding-top: 104px;
+    padding-bottom: 53px;
+}
+
+.header-title{
+    font-size: 250px;
+    font-weight: 300;
+    color: #272727;
+}
+
+.header-subtitle{
+    max-width: 575px;
+}
+
+.subtitle{
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 49.6px;
+}
+
+.btn{
+    margin-top: 61px;
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    text-decoration: none;
+    color: #fff;
+    background-color: #161515;
+    padding: 26px 74px 26px 73px;
+    font-size: 32px;
+    font-weight: 300; 
+    line-height: 29.44px;
+    transition: 1s;
+}
+
+.button:hover{
+    background-color: #272727;
+}
+
+.sell{
+    font-size: 32px;
+    font-weight: 300; 
+    line-height: 59.52px;
+    color: #272727;
+    padding-left: 28px;
+
+}
+
+.header-img{
+    padding-left: 30px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info{
+    margin-top: 43px;
+    margin-bottom: 27px;
+}
+
+.title{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #000;
+}
+
+.popular{
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 44.64px;
+    text-align: center;
+}
+
+.models{
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 81px;
+    text-align: center;
+}
+
+.card-models{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.card-title{
+    padding-top: 130px;
+    padding-bottom: 17px;
+}
+
+.card-subtitle{
+    max-width: 531px;
+}
+
+.footer{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-title{
+    display: block;
+    width: 972px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer-title::after{
+    content: '';
+    margin: 9px auto;
+    display: block;
+    width: 178px;
+    height: 1px;
+    background-color: #707070;
+}
+
+.footer-suptitle{
+    padding-top: 58px;
+    max-width: 515px;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 40.8px;
+    color: #161515;
+}
+
+.footer-suptitle a{
+    color: #BB8B5D;
+    border-style: 1px;
+}
+
+.copyright{
+    margin-top: 130px;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #161515;
+}
